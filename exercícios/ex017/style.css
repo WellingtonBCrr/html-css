@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: tomato;
+    color: lemonchiffon;
+    text-shadow: black 1px 1px;
+}
+
+h1 {
+    text-align: center;
+    font: bold 4.5em times;
+    text-shadow: black 3px 3px;
+}
+
+h2 {
+    text-align: left;
+    font: lighter 2em arial;
+    text-shadow: black 2px 2px;
+    text-decoration: underline 2px ;
+}
+
+p {
+    text-align: justify;
+    text-indent: 49px;
+    font: 1em ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: yellow;
+}
+
+.l {
+    text-align: right;
+}
