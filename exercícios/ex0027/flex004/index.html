@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @charset "UTF-8";
+        
+        /*
+            Typical Device Breakpoints - 03/2025
+        Legenda: P = Pequeno; M = Medio; G = Grande.
+        
+        TELAS EXTRA-P:              Mínimo  ATÉ 480px
+        CELULARES-P:                481px   ATÉ 600px
+        CELULARES-G / TABLETS-P:    601px   ATÉ 768px
+        TABLETS-M:                  769px   ATÉ 1024px
+        NOTEBOOKS-M / PC-P:         1025px  ATÉ 1280px
+        PC / TELAS HD:              1281px  ATÉ 1440px
+        TELAS-G:                    1441px  ATÉ Máximo
+        
+        */
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        div.conteiner {
+            background-color: lightsalmon;
+            margin-bottom: 56px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+        }
+
+        div.item {
+            background-color: aquamarine;
+            border: 1px solid black;
+            height: 49px;
+            width: 49px;
+            
+        }
+
+        div.conteiner2 {
+            background-color: lightsalmon;
+            margin-bottom: 56px;
+
+
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        div.item2 {
+            background-color: aquamarine;
+            border: 1px solid black;
+            height: 49px;
+            width: 49px;
+        }
+
+        div.conteiner3 {
+            background-color: lightsalmon;
+
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        div.item3 {
+            background-color: aquamarine;
+            border: 1px solid black;
+            height: 49px;
+            width: 49px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="conteiner">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+            <div class="item">E</div>
+            <div class="item">F</div>
+            <div class="item">G</div>
+        </div>
+
+        <div class="conteiner2">
+            <div class="item2">1</div>
+            <div class="item2">2</div>
+            <div class="item2">3</div>
+            <div class="item2">4</div>
+            <div class="item2">5</div>
+            <div class="item2">6</div>
+            <div class="item2">7</div>
+        </div>
+
+        <div class="conteiner3">
+            <div class="item3">I</div>
+            <div class="item3">II</div>
+            <div class="item3">III</div>
+            <div class="item3">IV</div>
+            <div class="item3">V</div>
+            <div class="item3">VI</div>
+            <div class="item3">VII</div>
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
