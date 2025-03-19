@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div.conteiner {
+            background-color: lightsalmon;
+            width: 100vw;
+            height: 49px;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+
+        }
+
+        div.item {
+            background-color: aquamarine;
+            border: 1px solid black;
+            
+            align-content: center;
+            text-align: center;
+            flex-basis: 150px;
+            flex-shrink: 0;
+            flex-grow: ;
+        }
+
+        div.conteiner2 {
+            background-color: lightsalmon;
+            height: 49px;
+            width: 100vw;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+
+        }
+
+        div.item21 {
+            background-color: aquamarine;
+            border: 1px solid black;
+            
+            flex-basis: 150px;
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+
+        div.item22 {
+            background-color: aquamarine;
+            border: 1px solid black;
+            
+            flex-basis: 150px;
+            flex-shrink: 0;
+            flex-grow: 2;
+        }
+
+        div.item23 {
+            background-color: aquamarine;
+            border: 1px solid black;
+            
+            flex-basis: 150px;
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+
+        div.conteiner3 {
+            background-color: lightsalmon;
+
+            display: flex;
+            flex-flow: row wrap;
+
+            height: 49px;
+            width: 100vw;
+            justify-content: space-between;            
+
+        }
+
+        div.item31 {
+            background-color: aquamarine;
+            border: 1px solid black;
+            
+            flex-basis: 150px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+
+        div.item32 {
+            background-color: aquamarine;
+            border: 1px solid black;
+            
+            flex-basis: 150px;
+            flex-shrink: 0;
+            flex-grow: 2;
+        }
+
+        div.item33 {
+            background-color: aquamarine;
+            border: 1px solid black;
+            
+            flex-basis: 150px;
+            flex-shrink: 2;
+            flex-grow: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="conteiner">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+        </div>
+
+        <div class="conteiner2">
+            <div class="item21">1</div>
+            <div class="item22">2</div>
+            <div class="item23">3</div>
+        </div>
+
+        <div class="conteiner3">
+            <div class="item31">I</div>
+            <div class="item32">II</div>
+            <div class="item33">III</div>
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
